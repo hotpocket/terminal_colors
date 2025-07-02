@@ -76,12 +76,17 @@ python -m terminal_colors
 terminal_colors/
 ├── setup.py
 ├── README.md
+├── .gitignore
+├── .python-version
+├── .vscode/
+│   └── settings.json
 ├── src/
-│   ├── __init__.py
-│   ├── colors.py
-│   └── __main__.py
-├── tests/
-└── docs/
+│   └── terminal_colors/
+│       ├── __init__.py
+│       ├── colors.py
+│       └── __main__.py
+└── tests/
+└── test_colors.py
 ```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
