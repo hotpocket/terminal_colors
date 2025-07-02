@@ -82,5 +82,5 @@ terminal_colors/
 │       ├── colors.py
 │       └── __main__.py
 └── tests/
-└── test_colors.py
+    └── test_colors.py
 ```
