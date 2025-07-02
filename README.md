@@ -18,13 +18,6 @@ You can install this package directly from its Git repository.
 ```bash
 pip install git+https://github.com/hotpocket/terminal_colors.git
 ```
-
-If you need to install a specific branch, tag, or commit, or if it's a private repository (using SSH), consult pip's documentation for "Installing from VCS." For example, to install from the `dev` branch:
-
-```bash
-pip install git+https://github.com/hotpocket/terminal_colors.git@dev
-```
-
 ## Usage
 
 ```python
@@ -69,6 +62,9 @@ After installation, you can run the built-in demo script:
 
 ```bash
 python -m terminal_colors
+
+# or you can run pytest from the repo root
+pytest
 ```
 
 ## Project Structure
@@ -88,5 +84,3 @@ terminal_colors/
 └── tests/
 └── test_colors.py
 ```
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
