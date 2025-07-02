@@ -1,5 +1,5 @@
-# *.pyc
+# cache generated from testing
 __pycache__/
-# .pytest_cache/
 
+# as a resulting of    pip install -e '.[dev]'
 *.egg-info
